@@ -20,4 +20,49 @@
 # available at http://guides.rubyonrails.org/i18n.html.
 
 en:
-  hello: "Hello world"
+  language:
+    french: "Français"
+    english: "English"
+  contact:
+    contactus: "Contact us"
+    connectus: "Connect with us"
+  menu:
+    home: "Home"
+    about: "About us"
+    services: "Services"
+    contact: "Contact"
+  intro:
+    title:
+      comingsoon: "Coming soon"
+      description: "The new way to empower your construction projects"
+    subscription:
+      title: "Let's stay in touch"
+      description: "All our latest content delivered to your inbox a few times a month"
+      clients: "Clients"
+      contractors: "Contractors"
+  services:
+    clients:
+      title: "Built by people like you"
+      description: "Tired of those phone calls, those blur expenses and those extra fees. Leave it to us, we find the right contractor for your projects. You explain one and only one time. You can enjoy, sit back and relax while we do the rest for you simple as that."
+      email: "Enter your email..."
+      subscribe: "Subscribe"
+    contractors:
+      title: "Made for contractors"
+      description: "Tired of spending thousand of dollars on ads and publicity without having a clue about the return you get from it. We find you new clients and give you the tools to track them."
+      email: "Enter company email..."
+      subscribe: "Subscribe"
+    more:
+      title: "Expect more. Achieve more."
+      description: "We have many features on the way to give you total control over you projects or on your customers. Subscribe to get all the latest news about our platorm."
+      transparency:
+        title: "We believe in transparency"
+        description: "We believe customers and entrepreneurs should work together to attain their objectives and build trust through transparency."
+  dialog:
+    failure:
+      title: "Warning!"
+      description: "You entered an existing email address."
+      problem: "If the problem persist contact us "
+    success:
+      title: "Congratulations!"
+      description: "You have been subscribed to our newsletter. By doing so, you have a chance on winning great prize on our upcoming platform."
+      thanks: "Thank you for your interest!"

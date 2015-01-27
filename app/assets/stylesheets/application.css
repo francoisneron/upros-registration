@@ -23,6 +23,10 @@
  *= require font-awesome
  */
 
+ /*
+ *= require rails_bootstrap_forms
+ */
+
 
 body,
 html {

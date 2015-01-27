@@ -1,0 +1,26 @@
+<!-- Modal -->
+<div class="modal fade" id="registration_failed" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-body">
+        <div class="alert alert-danger" role="alert">
+          <div class="row">
+          <div class="col-md-3">
+            <i class="fa fa-exclamation-triangle fa-5x"></i>
+          </div>
+          <div class="col-md-9">
+            <h4><%= t('dialog.failure.title') %></h4> <%= t('dialog.failure.description') %>
+            <br>
+            <br>
+            <%= t('dialog.failure.problem') %> <h4>info@upros.ca</h4>
+
+          </div>    
+          </div>
+        </div>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+      </div>
+    </div>
+  </div>
+</div>

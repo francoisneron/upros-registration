@@ -18,6 +18,8 @@ gem 'twitter-bootstrap-rails'
 gem 'less-rails'
 
 gem 'font-awesome-rails'
+gem 'google-analytics-rails'
+gem 'bootstrap_form'
 
 # Use jquery as the JavaScript library
 gem 'jquery-rails'

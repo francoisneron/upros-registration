@@ -1,0 +1,68 @@
+# Files in the config/locales directory are used for internationalization
+# and are automatically loaded by Rails. If you want to use locales other
+# than English, add the necessary files in this directory.
+#
+# To use the locales, use `I18n.t`:
+#
+#     I18n.t 'hello'
+#
+# In views, this is aliased to just `t`:
+#
+#     <%= t('hello') %>
+#
+# To use a different locale, set it with `I18n.locale`:
+#
+#     I18n.locale = :es
+#
+# This would use the information in config/locales/es.yml.
+#
+# To learn more, please read the Rails Internationalization guide
+# available at http://guides.rubyonrails.org/i18n.html.
+
+fr:
+  language:
+    french: "Français"
+    english: "English"
+  contact:
+    contactus: "Nous contacter"
+    connectus: "Suivez-nous"
+  menu:
+    home: "Accueil"
+    about: "A propos"
+    services: "Services"
+    contact: "Contact"
+  intro:
+    title:
+      comingsoon: "En cours de construction"
+      description: "La nouvelle facon de propulser vos projets de contruction"
+    subscription:
+      title: "Restons en contact"
+      description: "Toutes nos dernières nouvelles délivrées à votre boite courriel quelques fois par mois"
+      clients: "Particuliers"
+      contractors: "Entrepreneurs"
+  services:
+    clients:
+      title: "Pensé par vous"
+      description: "Fatigué de ces appels téléphoniques, des coûts flous et des frais supplémentaires. Laissez-nous faire , nous trouverons l'entrepreneur qu'il vous faut pour vos projets . Vous expliquez votre projet qu'une et une seule fois. Nous faisons le reste pour vous aussi simple que cela."
+      email: "Entrer votre courriel...."
+      subscribe: "S'abonner"
+    contractors:
+      title: "Conçu pour l'entrepreneurs"
+      description: "Fatigué de dépenser des milliers de dollars sur des annonces et de la publicité sans avoir la moindre idée du retour que vous obtenez de ces dépenses. Ne chercher plus, nous vous trouvons de nouveaux clients et nous vous donnons les outils pour poursuivre vos relations."
+      email: "Entrer un courriel..."
+      subscribe: "S'abonner"
+    more:
+      title: "Attendez-vous à plus."
+      description: "Nous avons plusieurs fonctionnalités en développement afin de vous donner un contrôle total sur vos projets que vous soyez un particulier ou un entrepreneur. Abonnez-vous pour obtenir les dernières nouvelles au sujet de notre plateforme."
+      transparency:
+        title: "Nous croyons à la transparence"
+        description: "Nous croyons que les particuliers et les entrepreneurs devraient travailler ensemble pour atteindre leurs objectifs et de créer des liens de confiance par la transparence."
+  dialog:
+    failure:
+      title: "Attention!"
+      description: "Vous avez entré une adresse déjà existante."
+      problem: "Si le problème persiste, contacter nous via "
+    success:
+      title: "Félicitation!"
+      description: " Vous vous êtes abonnés à notre newsletter. Ce faisant, vous courrez la chance de gagner des prix lors du lancement de notre plateforme."
+      thanks: "Merci pour votre intérêt!"
