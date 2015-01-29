@@ -8,6 +8,9 @@
     <meta name="application-name" content="Upros">
     <meta name="title" content="Upros - <%= t('intro.title.comingsoon') %>">
     <meta name="description" content="<%= t('intro.title.description') %>">
+    <meta property="og:title" content="Upros - <%= t('intro.title.comingsoon') %>">
+    <meta property="og:description" content="<%= t('intro.title.description') %>">
+    <meta property="og:image" content="<%= asset_path('projects.jpg') %>">
     <title><%= content_for?(:title) ? yield(:title) : "Upros.ca" %></title>
 
     <%= favicon_link_tag 'favicon.ico' %>
