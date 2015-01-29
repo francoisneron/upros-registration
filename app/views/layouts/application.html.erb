@@ -4,8 +4,14 @@
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=Edge,chrome=1">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="keywords" content="renovation, construction, projects, contractors, entrepreneurs, clients, services, online">
+    <meta name="application-name" content="Upros">
+    <meta name="title" content="Upros - <%= t('intro.title.comingsoon') %>">
+    <meta name="description" content="<%= t('intro.title.description') %>">
     <title><%= content_for?(:title) ? yield(:title) : "Upros.ca" %></title>
+
     <%= favicon_link_tag 'favicon.ico' %>
+
     <%= csrf_meta_tags %>
 
     <!-- Le HTML5 shim, for IE6-8 support of HTML elements -->
@@ -36,6 +42,7 @@
     <%= favicon_link_tag 'favicon.ico', :rel => 'shortcut icon' %>
 
     <%= javascript_include_tag "application" %>
+
     <%= analytics_init if Rails.env.production? %>
   </head>
   <body>
