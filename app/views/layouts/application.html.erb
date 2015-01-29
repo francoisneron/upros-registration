@@ -4,13 +4,11 @@
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=Edge,chrome=1">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="keywords" content="renovation, construction, projects, contractors, entrepreneurs, clients, services, online">
-    <meta name="application-name" content="Upros">
-    <meta name="title" content="Upros - <%= t('intro.title.comingsoon') %>">
-    <meta name="description" content="<%= t('intro.title.description') %>">
-    <meta property="og:title" content="Upros - <%= t('intro.title.comingsoon') %>">
-    <meta property="og:description" content="<%= t('intro.title.description') %>">
-    <meta property="og:image" content="<%= asset_path('projects.jpg') %>">
+
+    <% if content_for?(:head) %>
+        <%= yield(:head) %>
+    <% end %>
+    
     <title><%= content_for?(:title) ? yield(:title) : "Upros.ca" %></title>
 
     <%= favicon_link_tag 'favicon.ico' %>
